@@ -1,4 +1,23 @@
-string signal = "CRIMSON";
+string signal = "Yellow";
+string output = "";
 
-// TODO: Lag switch med kombinerte case-labels.
+switch (signal)
+{
+    case "RED":
+    case "CRIMSON":
+    case "SCARLET":
+        output = "Evacuate deck";
+        break;
+    case "Amber":
+    case "Yellow":
+        output = "Prepare Crew";
+        break;
+    case "GREEN":
+        output = "No emergency";
+        break;
+    default:
+        output = "Unknown signal";
+        break;
+}
 
+Console.WriteLine(output);

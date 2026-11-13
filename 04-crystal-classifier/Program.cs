@@ -1,6 +1,23 @@
-int energy = 52;
+int energy = 130;
 string classification = "";
 
 // TODO: Sett classification med if / else if / else.
+
+if (energy < 20)
+{
+    classification = "Dormant";
+} 
+else if (energy >= 20 && energy <= 49)
+{
+    classification = "Stable";
+}
+else if (energy >= 50 && energy <= 79)
+{
+    classification = "Unstable";
+}
+else
+{
+    classification = "Critical";
+}
 
 Console.WriteLine($"Classification: {classification}");
