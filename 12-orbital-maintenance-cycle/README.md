@@ -10,6 +10,7 @@ Et vedlikeholdssystem kjører 30 omløpssykluser. For hver syklus skal ett av di
 - ellers → selve syklusnummeret
 
 Krav:
+
 - Bruk én løkke fra 1 til 30.
 - Bruk `%` for divisibilitet.
 - Sjekk den mest spesifikke regelen først.
